@@ -1,1 +1,22 @@
-Initial README.  Will update when I'm graded
+Included files:
+
+sys.c:
+              file path: /u/OSLab/USERNAME/linux-2.6.23.1/kernel/sys.c
+              Explanation: Implementation of the new cs1550_up(semaphore) and cs1550_down(semaphore) syscalls.  
+                           New code located at the bottom of the file
+      
+sem.h:
+              file path: /u/OSLab/USERNAME/linux-2.6.23.1/include/sem.h
+              Explanation: header file for the semaphore and linked list structures
+      
+syscall_table.S:
+              file path: /u/OSLab/USERNAME/linux-2.6.23.1/arch/i386/kernel/syscall_table.S
+              Explanation: Edited syscall table, new syscalls added to the tail of the syscall list
+      
+unistd.h:
+              file path: /u/OSLab/USERNAME/linux-2.6.23.1/include/asm/unistd.h
+              Explanation: Edited syscall number list, new syscalls added to the end of the NR syscalls.
+              
+              
+              Autograder grade: 90.0/100.0 (awaiting final grade for comments and style)
+      
